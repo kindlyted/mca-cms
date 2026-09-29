@@ -1,0 +1,81 @@
+{
+  "_type": "product",
+  "meta": {
+    "id": "large-exercise-mat",
+    "language": "en",
+    "status": "published",
+    "featured": true,
+    "priority": 10,
+    "category": "exercise-mats",
+    "slug": "large-exercise-mat",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-14"
+  },
+  "seo": {
+    "title": "Large Exercise Mat - YourBrand",
+    "description": "High-density, non-toxic exercise mat engineered for home training. Cushions joints, protects floors and stays planted during jumps, squats and yoga.",
+    "keywords": ["exercise mat", "yoga mat", "home gym"]
+  },
+  "overview": {
+    "title": "Large Exercise Mat",
+    "excerpt": "High-density exercise mat engineered for high-intensity home training.",
+    "subtitle": "6.6' x 4' (200 x 120 cm)"
+  },
+  "cover": {
+    "url": "cover.webp",
+    "alt": "Large exercise mat for home training"
+  },
+  "description": "The Large Exercise Mat is engineered for high-intensity training. Its high-density, non-toxic foam absorbs impact, protects your joints and floors, and keeps you stable during jumps, squats and burpees. At 6.6' x 4' (200 x 120 cm) it offers more length than a standard mat, so tall athletes can deadlift, do yoga flows and stretch without your heels leaving the surface.\n\nThe 10mm (0.4\") thickness cushions knees and wrists during floor work, yet stays firm enough that balance poses and equipment stay planted. The surface is easy to wipe clean and resists odor, and the dense foam holds its shape workout after workout.",
+  "price": 59.99,
+  "compareAtPrice": 119.99,
+  "colors": ["Black"],
+  "dimensions": "6.6' x 4' (200 x 120 cm)",
+  "thickness": "10mm / 0.4\"",
+  "sizes": [],
+  "currency": "USD",
+  "inStock": true,
+  "highlights": [
+    { "label": "Category", "value": "Exercise Mats" },
+    { "label": "Material", "value": "100% High-Density 16P Free PVC & PER Foam" },
+    { "label": "Thickness", "value": "10mm / 0.4\"" },
+    { "label": "Design", "value": "Anti-Slip, Non-Toxic, Odor-Free" },
+    { "label": "Care", "value": "Easy to Clean with Damp Cloth" }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Large Exercise Mat",
+        "price": 59.99,
+        "unit": "per mat",
+        "description": "High-density exercise mat with free shipping.",
+        "inclusions": [
+          { "icon": "📦", "label": "Free US Shipping" },
+          { "icon": "↩️", "label": "60-Day Returns" }
+        ]
+      }
+    ],
+    "inclusions": [
+      { "icon": "📦", "label": "Free US Shipping" },
+      { "icon": "↩️", "label": "60-Day Returns" }
+    ]
+  },
+  "faq": [
+    { "q": "Can I wear shoes on this mat?", "a": "Yes, the high-density foam is designed to withstand shoes during HIIT and strength workouts." },
+    { "q": "Is the mat odor-free?", "a": "Yes. Tested and confirmed free of odor, phthalates, latex, silicone and toxins." }
+  ],
+  "geo": {
+    "keyFacts": [
+      "Free shipping across the USA",
+      "60-day easy returns",
+      "Non-toxic, odor-free certified materials"
+    ]
+  },
+  "features": [
+    "Generous 6.6' x 4' workout area for home gyms and studios",
+    "Dense 10mm padding cushions joints and protects floors",
+    "100% 16P-free high-density PVC & PER foam build",
+    "Easy to wipe clean and resistant to odors",
+    "Solid grip keeps feet planted during workouts"
+  ]
+}

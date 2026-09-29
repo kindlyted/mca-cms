@@ -1,0 +1,37 @@
+# Robots.txt for YourBrand (Your Company)
+# Medical Tourism Services Website
+# Allow all web crawlers to access public content
+#
+# NOTE: AI crawler blocking (Google-Extended, GPTBot, ClaudeBot, etc.)
+# is handled by Cloudflare managed rules in the Cloudflare Dashboard.
+# To unblock AI crawlers for AI search visibility (AEO/GEO):
+# 1. Log into Cloudflare Dashboard
+# 2. Go to Security → Bot Fight Mode (or Scrape Shield)
+# 3. Disable AI crawler blocking rules
+# The source-level robots.txt below does NOT block any AI crawlers.
+
+User-agent: *
+Allow: /
+
+# Disallow admin and system endpoints
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_nuxt/
+
+# Disallow private/internal pages
+Disallow: /private/
+Disallow: /internal/
+
+# Content-Signal: AI content usage preferences (RFC draft-romm-aipref-contentsignals)
+# Yes to all three = allow AI training, AI search citation, and AI input use.
+# This improves AI search visibility (AEO/GEO / AI Overviews / ChatGPT Search / Perplexity).
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Sitemap location
+Sitemap: https://www.yourdomain.com/sitemap.xml
+
+# Crawl delay (optional - uncomment if server load is high)
+# Crawl-delay: 1
+
+# Host directive (optional)
+Host: www.yourdomain.com

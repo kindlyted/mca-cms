@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "items": [
+      { "to": "/", "labelKey": "nav.home" },
+      { "to": "/products", "labelKey": "nav.products" },
+      { "to": "/services", "labelKey": "nav.services" },
+      { "to": "/partners", "labelKey": "nav.partners" },
+      { "to": "/blogs", "labelKey": "nav.stories" },
+      { "to": "/about", "labelKey": "nav.about" },
+      { "to": "/contact", "labelKey": "nav.contact" }
+    ]
+  },
+  "footer": {
+    "quickLinks": [
+      { "to": "/products", "labelKey": "footer.products" },
+      { "to": "/services", "labelKey": "footer.ourServices" },
+      { "to": "/partners", "labelKey": "footer.partners" },
+      { "to": "/blogs", "labelKey": "nav.stories" },
+      { "to": "/about", "labelKey": "footer.about" },
+      { "to": "/contact", "labelKey": "footer.contact" }
+    ],
+    "legalLinks": [
+      { "to": "/privacy", "labelKey": "footer.privacy" },
+      { "to": "/terms", "labelKey": "footer.terms" },
+      { "to": "/disclaimer", "labelKey": "footer.disclaimer" }
+    ],
+    "poweredBy": {
+      "enabled": true,
+      "labelKey": "footer.poweredBy",
+      "url": "https://github.com/kindlyted/mca-cms",
+      "rel": "noopener noreferrer"
+    }
+  }
+}

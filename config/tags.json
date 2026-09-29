@@ -1,0 +1,47 @@
+{
+  "_comment": "Generic Blog Tags Dictionary — tag_groups based, flat structure. Industry-neutral by default; site owners can replace this file per deployment.",
+  "_version": "1.0",
+  "_usage": "AI models select tags from tag_groups; BlogFilter.vue renders filter UI from it",
+  "_mapping": {
+    "tags.primary": "Pick 1 tag from 'content-type' group (the main kind of article)",
+    "tags.secondary": "Pick 1-4 tags from any group (content-type, topic, audience)"
+  },
+  "tag_groups": {
+    "content-type": {
+      "_label": "Content Type",
+      "_labelKey": "blogFilter.contentType",
+      "_popular": ["guide", "case-study", "news"],
+      "guide": { "id": "guide", "name": "Guide", "slug": "guide" },
+      "how-to": { "id": "how-to", "name": "How-To", "slug": "how-to" },
+      "case-study": { "id": "case-study", "name": "Case Study", "slug": "case-study" },
+      "comparison": { "id": "comparison", "name": "Comparison", "slug": "comparison" },
+      "news": { "id": "news", "name": "Industry News", "slug": "news" },
+      "research": { "id": "research", "name": "Research & Data", "slug": "research" },
+      "faq": { "id": "faq", "name": "FAQ", "slug": "faq" },
+      "opinion": { "id": "opinion", "name": "Opinion", "slug": "opinion" }
+    },
+    "topic": {
+      "_label": "Topic",
+      "_labelKey": "blogFilter.topic",
+      "_popular": ["strategy", "technology", "marketing"],
+      "strategy": { "id": "strategy", "name": "Strategy", "slug": "strategy" },
+      "technology": { "id": "technology", "name": "Technology", "slug": "technology" },
+      "marketing": { "id": "marketing", "name": "Marketing", "slug": "marketing" },
+      "operations": { "id": "operations", "name": "Operations", "slug": "operations" },
+      "finance": { "id": "finance", "name": "Finance", "slug": "finance" },
+      "compliance": { "id": "compliance", "name": "Compliance & Legal", "slug": "compliance" },
+      "people": { "id": "people", "name": "People & Culture", "slug": "people" },
+      "sustainability": { "id": "sustainability", "name": "Sustainability", "slug": "sustainability" }
+    },
+    "audience": {
+      "_label": "Audience",
+      "_labelKey": "blogFilter.audience",
+      "_popular": ["startups", "enterprise", "professionals"],
+      "startups": { "id": "startups", "name": "Startups & Small Business", "slug": "startups" },
+      "enterprise": { "id": "enterprise", "name": "Enterprise", "slug": "enterprise" },
+      "professionals": { "id": "professionals", "name": "Professionals", "slug": "professionals" },
+      "consumers": { "id": "consumers", "name": "Consumers", "slug": "consumers" },
+      "international": { "id": "international", "name": "International / Global", "slug": "international" }
+    }
+  }
+}

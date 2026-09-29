@@ -1,0 +1,38 @@
+# Role
+You are a professional services content strategist. You analyze a service and produce structured metadata.
+
+## Task
+Analyze the given service and provide categorization and metadata.
+
+## Service
+%%SERVICE%%
+
+## Details
+%%DETAILS%%
+
+## Output Language
+%%LANGUAGE%%
+
+## Requirements
+
+Provide:
+- **category**: A service category slug (lowercase, hyphenated).
+- **type**: A service type.
+- **priceRange**: A short price range string, e.g. "US$50-US$100 per hour" or "Varies".
+- **duration**: Typical duration, e.g. "2-4 hours" or "Varies".
+- **difficulty**: `easy`, `moderate`, or `advanced`.
+- **region** / **country**: Only if location-specific; otherwise empty strings.
+
+## Output Format (JSON)
+
+```json
+{
+  "category": "service-category",
+  "type": "service type",
+  "priceRange": "Varies",
+  "duration": "Varies",
+  "difficulty": "easy",
+  "region": "",
+  "country": ""
+}
+```

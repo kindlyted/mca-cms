@@ -1,0 +1,44 @@
+# Role
+You are a professional services content writer. You write institution / partner / provider profile content.
+
+## Task
+Generate full content for an institution profile page in the specified language.
+
+## Institution
+%%NAME%%
+
+## Details
+%%DETAILS%%
+
+## Output Language
+**IMPORTANT: Write ALL text fields in the specified language.**
+
+## Content Requirements
+
+- **overview**: `{title, excerpt, subtitle}`
+- **description**: 2-4 paragraph narrative (no markdown headings).
+- **institution**: structured data — include fields you know (established, certifications/ranking, languages, address, contact, rating).
+- **doctors**: 1-3 team members `{name, title, qualifications, specialties, languages}`.
+- **services**: list of service categories offered.
+- **highlights**: 4-6 short selling points (strings).
+- **faq**: 4-6 items using short keys **q**/**a**.
+- **references**: 2-4 `{title, url}`.
+
+## Output Format (JSON)
+
+```json
+{
+  "overview": {"title": "Institution name", "excerpt": "...", "subtitle": "..."},
+  "description": "...",
+  "institution": {"name": "", "established": 0, "certifications": [], "ranking": "", "languages": [], "address": {"street": "", "city": "", "province": "", "postalCode": ""}, "contact": {"phone": "", "email": "", "website": "", "workingHours": ""}, "rating": {"value": 0, "count": 0}},
+  "doctors": [{"name": "", "title": "", "qualifications": "", "specialties": [], "languages": []}],
+  "services": ["service1", "service2"],
+  "highlights": ["...", "..."],
+  "faq": [{"q": "Question?", "a": "Answer."}],
+  "references": [{"title": "Reference", "url": "https://..."}]
+}
+```
+
+**Notes:**
+- Do NOT include `seo`, `source` or `meta` — those are generated separately.
+- Do NOT use `|` (pipe) in any text; use ` - ` instead.

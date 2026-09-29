@@ -1,0 +1,69 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# IDE
+.vscode/
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+
+sample/
+Todo.md
+
+
+# Database
+*.db
+*.db-journal
+
+# Python / CMS
+.playwright-mcp/
+
+# Python virtual environment
+venv/
+.env/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+# Automated pages for the CMS
+htmlcov/
+
+# Internal reference docs (user docs live in the repo root)
+docs/
+*.mo
+*.pot
+
+# Content data (client-specific). Directory skeleton is tracked via .gitkeep;
+# actual JSON content and assets stay local / out of the template repo.
+data/**
+!data/**/
+!data/**/.gitkeep

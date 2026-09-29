@@ -1,0 +1,100 @@
+{
+  "_type": "service",
+  "meta": {
+    "id": "business-consulting",
+    "language": "en",
+    "status": "published",
+    "slug": "business-consulting",
+    "createdAt": "2026-07-22",
+    "updatedAt": "2026-07-25",
+    "readTime": 2,
+    "featured": true,
+    "priority": 7,
+    "difficulty": "easy",
+    "duration": "Varies",
+    "priceRange": "US$150-US$400 per engagement",
+    "category": "consulting",
+    "region": "global"
+  },
+  "seo": {
+    "title": "Business Consulting - YourBrand",
+    "description": "End-to-end business consulting: strategy, operations and growth. Dedicated consultant, transparent hourly billing and a clear roadmap for your organisation.",
+    "keywords": "business consulting, strategy, operations, growth, transformation"
+  },
+  "overview": {
+    "title": "Business Consulting",
+    "excerpt": "From strategy to execution — a dedicated consultant helps you diagnose, plan and deliver measurable results.",
+    "subtitle": "A clear roadmap for your organisation"
+  },
+  "cover": {
+    "url": "cover.webp",
+    "alt": "Business consulting services",
+    "caption": "Business consulting services"
+  },
+  "introduction": "A comprehensive business consulting engagement is a structured way to align your organisation around clear goals, strengthen operations and improve performance. Packages range from a single strategy workshop to a longer-term transformation programme covering market analysis, process optimisation and growth planning.\n\nExperienced consultants offer multilingual delivery, senior-level advice and a practical, results-driven approach tailored to your context.",
+  "procedure": "A business consulting engagement systematically reviews your objectives, operations and market context. The typical sequence takes 2-4 weeks depending on scope.\n\n1. **Kick-off & Discovery:** Interviews with stakeholders, review of goals, budget and constraints.\n\n2. **Market & Competitive Analysis:** Benchmarking against peers, customer research and opportunity mapping.\n\n3. **Process Review:** Mapping current workflows, identifying bottlenecks and quick wins.\n\n4. **Strategy Roadmap:** A prioritised action plan with owners, timelines and measurable KPIs.\n\n5. **Implementation Support:** Working sessions to embed new ways of working and track progress.\n\n6. **Review & Iterate:** A senior consultant reviews outcomes with you and refines next steps.",
+  "comparison": "| Option | Local | Partner (USD) | Reference (USD) |\n|--------|-------|---------------|-----------------|\n| Workshop | Varies | $2,000-$4,000 | $4,000-$8,000 |\n| Full Programme | Varies | $8,000-$15,000 | $15,000-$30,000 |\n| Embedded Advisor | Varies | $20,000-$40,000 | $40,000-$80,000 |\n\n*Fees depend on scope and seniority. Extras billed separately.*",
+  "outcome": "Most deliverables — the diagnosis and roadmap — are available within 2-4 weeks. Your consultant walks you through the findings and helps you build a practical execution plan.\n\nIf follow-on support is valuable, we can arrange an embedded advisor or a separate implementation engagement within the same practice or recommend trusted specialists.",
+  "pricing": {
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Basic",
+        "price": 150,
+        "unit": "per hour",
+        "description": "Standard consulting, recommendations and coordination",
+        "inclusions": [
+          { "icon": "check", "label": "Stakeholder interviews and discovery" },
+          { "icon": "check", "label": "Strategy workshop delivery" },
+          { "icon": "check", "label": "Written recommendations" }
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": 400,
+        "unit": "per hour",
+        "description": "Senior consultant with deep expertise in your sector",
+        "inclusions": [
+          { "icon": "check", "label": "Everything in Basic plan" },
+          { "icon": "check", "label": "Senior consultant with sector expertise" },
+          { "icon": "check", "label": "Priority response channel" }
+        ]
+      }
+    ],
+    "exclusions": [
+      "Software licensing or tooling fees",
+      "Travel expenses",
+      "Third-party implementation costs"
+    ]
+  },
+  "highlights": [
+    "From strategy to execution — dedicated consultant and clear roadmap",
+    "Transparent pricing with senior-level advice"
+  ],
+  "conditions": {
+    "title": "Eligibility & Requirements",
+    "items": [
+      { "key": "Project Scope", "value": "No minimum engagement; packages suitable for teams of all sizes." },
+      { "key": "Engagement", "value": "No long-term commitment required; tailored to your organisation's needs." }
+    ]
+  },
+  "process": {
+    "title": "Your Consulting Journey",
+    "steps": [
+      { "title": "1. Consultation & Scoping", "description": "Contact us to define your objectives, timeframe and budget.", "duration": "45 minutes", "cost": "Free" },
+      { "title": "2. Discovery & Diagnosis", "description": "Meet your consultant. They assess your goals, processes and opportunities.", "duration": "1-2 weeks", "cost": "Quoted" },
+      { "title": "3. Roadmap & Follow-up", "description": "Receive your written recommendations. Optional implementation support.", "duration": "1-2 weeks", "cost": "Included" }
+    ]
+  },
+  "faq": [
+    { "q": "How much does a consulting engagement cost?", "a": "Fees range from about $150/hour for a standard consultant to $400/hour for a senior expert. The final quote depends on scope and seniority. A typical engagement takes 2-4 weeks." },
+    { "q": "Will the deliverables be presented in our language?", "a": "Yes. Your consultant presents findings in your preferred language and we provide a written summary you can share internally." },
+    { "q": "Can I customise which services I want?", "a": "Absolutely. You can select individual services or combine packages. Your consultant will recommend the most cost-effective combination." }
+  ],
+  "references": [
+    { "title": "Global Business Standards – Best Practices", "url": "https://www.example.com" }
+  ],
+  "content": {
+    "source": "YourBrand Research"
+  }
+}

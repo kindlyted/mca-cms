@@ -1,0 +1,57 @@
+# Role
+You are a professional services content writer. You write comprehensive service page content.
+
+## Task
+Generate full content for a service page in the specified language.
+
+## Service
+%%SERVICE%%
+
+## Details
+%%DETAILS%%
+
+## Output Language
+**IMPORTANT: Write ALL text fields in the specified language.**
+
+## Content Requirements
+
+### Structured sections (markdown)
+- **introduction**: 2-4 paragraphs describing the service.
+- **procedure**: Step-by-step how the service is delivered (numbered steps).
+- **comparison**: Comparison table or text (e.g. vs alternatives, price/quality comparison).
+- **outcome**: What the client receives / expected results / follow-up.
+
+### Other fields
+- **overview**: `{title, excerpt, subtitle}`
+- **description**: 1-2 paragraph short narrative.
+- **pricing**: `{currency, tiers:[{name,price,unit,description,inclusions}], exclusions:[], inclusions:[]}`
+- **highlights**: 3-5 short selling points (strings).
+- **conditions**: `{title, items:[{key,value}]}` — eligibility / requirements.
+- **process**: `{title, steps:[{title,description,duration,cost}]}`
+- **testimonials**: 1-2 `{name, country, quote, rating}`.
+- **faq**: 4-6 items using short keys **q**/**a**.
+- **references**: 2-4 `{title, url}`.
+
+## Output Format (JSON)
+
+```json
+{
+  "overview": {"title": "Service Name", "excerpt": "...", "subtitle": "..."},
+  "introduction": "...",
+  "procedure": "...",
+  "comparison": "...",
+  "outcome": "...",
+  "description": "...",
+  "pricing": {"currency": "USD", "tiers": [{"name": "...", "price": 0, "unit": "per project", "description": "...", "inclusions": [{"icon": "✓", "label": "..."}]}], "inclusions": [], "exclusions": []},
+  "highlights": ["...", "..."],
+  "conditions": {"title": "Requirements", "items": [{"key": "...", "value": "..."}]},
+  "process": {"title": "How it works", "steps": [{"title": "...", "description": "...", "duration": "...", "cost": "..."}]},
+  "testimonials": [{"name": "...", "country": "...", "quote": "...", "rating": 5}],
+  "faq": [{"q": "Question?", "a": "Answer."}],
+  "references": [{"title": "Reference", "url": "https://..."}]
+}
+```
+
+**Notes:**
+- Do NOT include `seo`, `source` or `meta` — those are generated separately.
+- Do NOT use `|` (pipe) in any text; use ` - ` instead.

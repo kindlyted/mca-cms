@@ -1,0 +1,99 @@
+{
+  "_comment": "Site manifest - Acme Professional Services (demo). See QUICKSTART.md for every field. 'copy' lets you override any i18n string per language (optional). 'nav'/'footer' customised (no partners). 'deploy' configures the generated .github/workflows/deploy.yml. All values below are fictional placeholders - replace with your own.",
+  "name": "Acme Professional Services",
+  "shortName": "Acme",
+  "tagline": "Professional Services & Solutions",
+  "description": "Acme helps businesses plan, deliver and support their most important initiatives with certified quality and dedicated teams.",
+  "address": "No.1 Example Road, Central District, Example City 000000, Demo Country",
+  "phone": "+1 555 0100",
+  "email": "hello@yourdomain.com",
+  "workingHours": "Monday to Friday: 9:00 - 18:00",
+  "copyright": "All Rights Reserved",
+  "year": "2026",
+  "siteUrl": "https://www.yourdomain.com",
+  "logoPath": "/images/logo/logo.png",
+  "languages": ["en", "fr", "de"],
+  "defaultLocale": "en",
+  "externalLinks": [
+    { "name": "Acme Blog", "url": "https://www.yourdomain.com/blog" },
+    { "name": "Acme Academy", "url": "https://www.yourdomain.com/academy" }
+  ],
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/yourbrand",
+    "twitter": "https://twitter.com/yourbrand",
+    "linkedin": "https://www.linkedin.com/company/yourbrand"
+  },
+  "nav": {
+    "items": [
+      { "to": "/", "labelKey": "nav.home" },
+      { "to": "/products", "labelKey": "nav.products" },
+      { "to": "/services", "labelKey": "nav.services" },
+      { "to": "/blogs", "labelKey": "nav.stories" },
+      { "to": "/about", "labelKey": "nav.about" },
+      { "to": "/contact", "labelKey": "nav.contact" }
+    ]
+  },
+  "footer": {
+    "quickLinks": [
+      { "to": "/products", "labelKey": "footer.products" },
+      { "to": "/services", "labelKey": "footer.ourServices" },
+      { "to": "/blogs", "labelKey": "nav.stories" },
+      { "to": "/about", "labelKey": "footer.about" },
+      { "to": "/contact", "labelKey": "footer.contact" }
+    ],
+    "legalLinks": [
+      { "to": "/privacy", "labelKey": "footer.privacy" },
+      { "to": "/terms", "labelKey": "footer.terms" },
+      { "to": "/disclaimer", "labelKey": "footer.disclaimer" }
+    ]
+  },
+  "aboutPage": {
+    "statistics": [
+      { "value": "15+", "labelKey": "pages.about.stats.years" },
+      { "value": "500+", "labelKey": "pages.about.stats.projects" },
+      { "value": "98%", "labelKey": "pages.about.stats.satisfaction" },
+      { "value": "120+", "labelKey": "pages.about.stats.clients" }
+    ],
+    "coreValues": [
+      { "icon": "🎯", "titleKey": "pages.about.values.quality.title", "descriptionKey": "pages.about.values.quality.description" },
+      { "icon": "🤝", "titleKey": "pages.about.values.trust.title", "descriptionKey": "pages.about.values.trust.description" },
+      { "icon": "💡", "titleKey": "pages.about.values.transparency.title", "descriptionKey": "pages.about.values.transparency.description" }
+    ],
+    "teamMembers": [
+      { "initials": "ME", "nameKey": "pages.about.team.members.editorial.name", "roleKey": "pages.about.team.members.editorial.role", "bioKey": "pages.about.team.members.editorial.bio" },
+      { "initials": "MT", "nameKey": "pages.about.team.members.leadership.name", "roleKey": "pages.about.team.members.leadership.role", "bioKey": "pages.about.team.members.leadership.bio" },
+      { "initials": "CS", "nameKey": "pages.about.team.members.support.name", "roleKey": "pages.about.team.members.support.role", "bioKey": "pages.about.team.members.support.bio" }
+    ],
+    "reasons": [
+      { "titleKey": "pages.about.whyChooseUs.expertise.title", "descriptionKey": "pages.about.whyChooseUs.expertise.description" },
+      { "titleKey": "pages.about.whyChooseUs.network.title", "descriptionKey": "pages.about.whyChooseUs.network.description" },
+      { "titleKey": "pages.about.whyChooseUs.support.title", "descriptionKey": "pages.about.whyChooseUs.support.description" },
+      { "titleKey": "pages.about.whyChooseUs.savings.title", "descriptionKey": "pages.about.whyChooseUs.savings.description" }
+    ]
+  },
+  "copy": {
+    "en": {
+      "pages": {
+        "home": {
+          "hero": {
+            "badge": "15+ Years Experience · 500+ Projects Delivered",
+            "title": "Your Trusted Partner for Professional Services",
+            "subtitle": "We help businesses plan, deliver and support their most important initiatives — with transparent pricing, certified quality and dedicated teams you can rely on."
+          }
+        }
+      }
+    }
+  },
+  "deploy": {
+    "_comment": "GitHub Actions deploy config (DEMO). SERVER_HOST / SERVER_SSH_KEY must be set as repo secrets (see 'secretsHost'/'secretsKey'). These paths/names are fictional examples - set to your own server.",
+    "enabled": false,
+    "branch": "main",
+    "nodeVersion": "22",
+    "sshUser": "ubuntu",
+    "runUser": "www",
+    "serverPath": "/www/wwwroot/acme-demo",
+    "pm2Name": "acme-demo",
+    "stagingPath": "/tmp/acme-deploy",
+    "scpSource": ".output,ecosystem.config.cjs"
+  }
+}

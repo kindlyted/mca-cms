@@ -1,0 +1,92 @@
+{
+  "_type": "partner",
+  "meta": {
+    "id": "acme-institute",
+    "type": "institution",
+    "city": "Berlin",
+    "region": "Central Europe",
+    "country": "Germany",
+    "language": "en",
+    "status": "published",
+    "featured": true,
+    "priority": 5,
+    "createdAt": "2026-06-30",
+    "updatedAt": "2026-08-30",
+    "slug": "acme-institute"
+  },
+  "seo": {
+    "title": "Acme Institute - YourBrand",
+    "description": "Top-ranked professional training and certification institute established in 1998, ISO-accredited, serving 15,000+ professionals annually.",
+    "keywords": "Acme Institute, accredited, professional development, certification"
+  },
+  "overview": {
+    "title": "Acme Institute",
+    "excerpt": "Professional training institute in Berlin, established 1998. ISO-accredited, serving 15,000+ learners annually.",
+    "subtitle": "Established Since 1998"
+  },
+  "cover": {
+    "url": "cover.webp",
+    "alt": "Acme Institute"
+  },
+  "institution": {
+    "name": "Acme Institute",
+    "established": 1998,
+    "certifications": [
+      "ISO 9001 Quality Management",
+      "Accredited Learning Provider"
+    ],
+    "ranking": "Top 10 in its field (National Ranking 2025)",
+    "languages": [
+      "English",
+      "German",
+      "French"
+    ],
+    "address": {
+      "street": "1 Example Road, Central District",
+      "city": "Berlin",
+      "province": "Berlin",
+      "postalCode": "10115"
+    },
+    "geo": {
+      "latitude": "52.5200",
+      "longitude": "13.4050"
+    },
+    "contact": {
+      "phone": "+49 30 5555 0100",
+      "email": "hello@yourdomain.com",
+      "website": "https://www.yourdomain.com",
+      "workingHours": "Mon-Fri: 8:00-18:00"
+    },
+    "rating": {
+      "value": 4.8,
+      "count": 800
+    }
+  },
+  "team": [
+    {
+      "name": "Dr. Alex Morgan",
+      "title": "Director, Center of Excellence",
+      "qualifications": "PhD, 15 years of experience",
+      "specialties": ["Executive Training", "Quality Systems", "Certification Programs"],
+      "languages": ["English", "German"]
+    }
+  ],
+  "description": "A partner institute in Berlin, established 1998. ISO-accredited, serving 15,000+ professionals annually.\n\n**Ranking:** Top 10 in its field (National Ranking 2025)\n\n**Accreditation:** ISO 9001, Accredited Learning Provider\n\nLanguages: English, German, French\n\nLearner rating: 4.8/5 (800 reviews)",
+  "highlights": [
+    "Top 10 in its field (National Ranking 2025)",
+    "ISO 9001-accredited learning provider",
+    "Multilingual team fluent in English, German, French",
+    "Dedicated corporate training center serving 3,000+ learners yearly",
+    "Modular programs with flexible scheduling for professionals"
+  ],
+  "faq": [
+    { "q": "What makes this institute the top choice?", "a": "It is ranked Top 10 in its field with 27+ years of expertise, ISO 9001-accredited, and offers flexible, results-driven programs." },
+    { "q": "Do you offer multilingual support for international clients?", "a": "Yes, the corporate training center provides coordinators fluent in English, German and French." }
+  ],
+  "references": [
+    { "title": "Acme Institute — Official Website", "url": "https://www.example.com" }
+  ],
+  "services": [
+    "Training", "Certification"
+  ]
+}

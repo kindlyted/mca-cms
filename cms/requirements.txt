@@ -1,0 +1,8 @@
+openai>=1.0
+python-dotenv>=1.0
+Pillow>=10.0
+requests>=2.31
+volcengine-python-sdk[ark] 
+dashscope
+# Optional: web-search of authoritative sources before generation (needs API_KEY_TAVILY)
+tavily-python

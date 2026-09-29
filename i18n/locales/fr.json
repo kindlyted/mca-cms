@@ -1,0 +1,641 @@
+﻿{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "services": "Services",
+    "partners": "Partenaires",
+    "stories": "Ressources",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "disclaimer": "Mentions légales"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "products": "Produits",
+    "ourServices": "Nos services",
+    "partners": "Partenaires",
+    "about": "À propos",
+    "resources": "Ressources",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "disclaimer": "Mentions légales",
+    "copyright": "© 2026 YourBrand. Tous droits réservés.",
+    "poweredBy": "Propulsé par MCA-CMS"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "retry": "Réessayer",
+    "learnMore": "En savoir plus",
+    "viewAll": "Tout voir",
+    "readMore": "Lire la suite",
+    "contactUs": "Contactez-nous",
+    "getStarted": "Commencer",
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "noResults": "Aucun résultat trouvé",
+    "viewDetails": "Voir les détails",
+    "callUs": "Appelez-nous",
+    "years": "ans",
+    "clients": "clients",
+    "projects": "projets",
+    "successRate": "taux de satisfaction",
+    "loadingError": "Échec du chargement des données",
+    "networkError": "Erreur réseau, veuillez réessayer plus tard",
+    "wantToLearnMore": "Vous voulez en savoir plus ?",
+    "consultantService": "Notre équipe propose des consultations individuelles",
+    "faqTitle": "Questions fréquentes",
+    "ctaSection": {
+      "title": "Prêt à commencer ?",
+      "description": "Contactez-nous dès aujourd'hui pour une consultation gratuite et une proposition sur mesure.",
+      "button": "Contactez-nous"
+    },
+    "disclaimer": "Les informations de cette page sont fournies à titre purement informatif et ne constituent pas un conseil professionnel."
+  },
+  "error": {
+    "notFound": {
+      "title": "Page introuvable",
+      "description": "Désolé, la page que vous recherchez n'existe pas ou a été supprimée",
+      "backHome": "Retour à l'accueil",
+      "browseContent": "Parcourir les ressources",
+      "popularContent": "Contenu populaire",
+      "needHelp": "Besoin d'aide ?",
+      "contactUs": "Contactez-nous"
+    },
+    "serverError": {
+      "title": "Erreur serveur",
+      "description": "Désolé, une erreur est survenue. Veuillez réessayer plus tard.",
+      "backHome": "Retour à l'accueil",
+      "retry": "Réessayer"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "badge": "Plus de 15 ans d'expérience · Plus de 500 projets réalisés",
+        "title": "Votre partenaire de confiance pour les services professionnels",
+        "subtitle": "Nous aidons les entreprises et les particuliers à planifier, réaliser et accompagner leurs projets les plus importants — avec des prix transparents, une qualité certifiée et des équipes dédiées.",
+        "exploreServices": "Découvrir nos services",
+        "getConsultation": "Nous contacter",
+        "stats": {
+          "experience": "Années d'expérience",
+          "projects": "Projets réalisés",
+          "clients": "Clients accompagnés",
+          "satisfaction": "Satisfaction client"
+        }
+      },
+      "services": {
+        "title": "Nos services",
+        "badge": "Ce que nous faisons",
+        "description": "Du conseil à la mise en œuvre, en passant par la formation et le support — tout ce dont vous avez besoin, au même endroit.",
+        "viewAll": "Voir tous les services"
+      },
+      "featuredPartners": {
+        "title": "Nos partenaires",
+        "badge": "Partenaires",
+        "description": "Nous travaillons avec des entreprises et institutions certifiées qui répondent aux plus hauts standards de qualité et de service.",
+        "viewAll": "Voir tous les partenaires"
+      },
+      "education": {
+        "title": "Pourquoi nous choisir",
+        "badge": "Nos atouts",
+        "description": "Une façon plus intelligente et plus fiable d'obtenir un accompagnement professionnel.",
+        "costSavings": {
+          "title": "Rentable",
+          "description": "Des prix compétitifs et transparents, sans compromis sur la qualité."
+        },
+        "facilities": {
+          "title": "Qualité certifiée",
+          "description": "Des partenaires validés et des standards certifiés dignes de confiance."
+        },
+        "waitingTime": {
+          "title": "Réactivité",
+          "description": "Des processus optimisés pour des résultats dans les délais."
+        },
+        "articles": {
+          "title": "Articles et ressources",
+          "badge": "Ressources",
+          "description": "Des guides pratiques et des analyses de nos experts.",
+          "viewAll": "Voir tous les articles"
+        }
+      },
+      "whyChooseUs": {
+        "title": "Pourquoi nous choisir",
+        "badge": "Nos atouts",
+        "description": "Nous combinons expertise, transparence et accompagnement dédié pour des résultats concrets.",
+        "quality": {
+          "title": "Qualité certifiée",
+          "description": "Chaque service est délivré selon des standards vérifiés et certifiés."
+        },
+        "team": {
+          "title": "Équipe experte",
+          "description": "Des spécialistes avec des années d'expérience terrain."
+        },
+        "care": {
+          "title": "Accompagnement dédié",
+          "description": "Un suivi personnalisé de la première demande à la livraison finale."
+        },
+        "trackRecord": {
+          "title": "Résultats éprouvés",
+          "description": "Plus de 500 projets réussis et 99 % de satisfaction."
+        }
+      },
+      "cta": {
+        "title": "Prêt à travailler avec nous ?",
+        "description": "Obtenez une consultation gratuite et une proposition sur mesure dès aujourd'hui.",
+        "freeConsultation": "Consultation gratuite",
+        "callNow": "Appelez-nous"
+      }
+    },
+    "products": {
+      "title": "Produits - YourBrand",
+      "description": "Découvrez notre gamme de produits avec des prix transparents et une qualité certifiée.",
+      "search": {
+        "placeholder": "Entrez un nom de produit ou un mot-clé",
+        "label": "Rechercher des produits"
+      },
+      "filter": {
+        "typeLabel": "Catégorie",
+        "allTypes": "Toutes les catégories"
+      },
+      "noResults": "Aucun produit trouvé correspondant à vos critères",
+      "pagination": {
+        "showing": "Affichage de {from} à {to} sur {total}",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "first": "Premier",
+        "last": "Dernier",
+        "goTo": "Aller à la page",
+        "page": "Page",
+        "go": "Aller"
+      },
+      "detail": {
+        "price": "Prix",
+        "size": "Taille",
+        "sizeVariant": "Choisir la taille",
+        "selectColor": "Choisir la couleur",
+        "addToCart": "Ajouter au panier",
+        "inStock": "En stock",
+        "outOfStock": "Rupture de stock",
+        "partners": "Partenaires recommandés",
+        "highlights": "Points forts du produit",
+        "introduction": "Introduction",
+        "procedure": "Comment ça marche",
+        "comparison": "Comparaison",
+        "outcome": "Résultats et support",
+        "process": "Notre processus",
+        "conditions": "Exigences et considérations",
+        "references": "Références",
+        "gallery": "Galerie",
+        "testimonials": "Avis clients",
+        "related": "Produits similaires"
+      }
+    },
+    "services": {
+      "title": "Services - YourBrand",
+      "description": "Découvrez notre gamme de services professionnels : conseil, mise en œuvre, formation et support.",
+      "search": {
+        "placeholder": "Entrez un nom de service ou un mot-clé",
+        "label": "Rechercher un service"
+      },
+      "filter": {
+        "typeLabel": "Catégorie",
+        "allTypes": "Toutes les catégories",
+        "consulting": "Conseil",
+        "implementation": "Mise en œuvre",
+        "training": "Formation",
+        "support": "Support",
+        "product": "Produit",
+        "custom": "Solutions sur mesure"
+      },
+      "noResults": "Aucun service ne correspond à vos critères",
+      "readTime": "min de lecture",
+      "pagination": {
+        "showing": "Affichage de {from} à {to} sur {total}",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "first": "Première",
+        "last": "Dernière",
+        "goTo": "Aller à la page",
+        "page": "Page",
+        "go": "Aller"
+      },
+      "detail": {
+        "benefits": {
+          "savings": {
+            "title": "Prix compétitifs",
+            "description": "Des prix transparents et justes, sans frais cachés."
+          },
+          "accredited": {
+            "title": "Qualité certifiée",
+            "description": "Délivré selon des standards vérifiés et certifiés."
+          },
+          "recovery": {
+            "title": "Réactivité",
+            "description": "Une livraison efficace qui respecte vos délais."
+          }
+        },
+        "partners": "Partenaires recommandés",
+        "pricing": "Tarification du service",
+        "exclusions": "Non inclus",
+        "inclusions": "Ce qui est inclus",
+        "hoverDetails": "Survolez pour plus de détails",
+        "testimonials": "Témoignages clients",
+        "team": "Notre équipe",
+        "services": "Domaines d'expertise",
+        "contact": "Informations de contact",
+        "highlights": "Points forts du service",
+        "introduction": "Introduction",
+        "procedure": "Comment ça marche",
+        "comparison": "Comparaison",
+        "outcome": "Résultats et support",
+        "process": "Notre processus",
+        "conditions": "Conditions et considérations",
+        "references": "Références",
+        "gallery": "Galerie",
+        "author": "Auteur",
+        "source": "Source",
+        "citationSources": "Sources",
+        "keyFacts": "Points clés",
+        "definitiveClaims": "Nos engagements"
+      }
+    },
+    "partners": {
+      "title": "Nos partenaires - YourBrand",
+      "description": "Découvrez les entreprises et institutions certifiées avec lesquelles nous travaillons.",
+      "search": {
+        "placeholder": "Entrez un nom de partenaire ou un mot-clé",
+        "label": "Rechercher un partenaire"
+      },
+      "filter": {
+        "typeLabel": "Type de partenaire",
+        "cityLabel": "Localisation",
+        "allTypes": "Tous les types",
+        "allCities": "Toutes les localisations",
+        "company": "Entreprise",
+        "institution": "Institution",
+        "partner": "Partenaire",
+        "consultant": "Consultant",
+        "trainingCenter": "Centre de formation"
+      },
+      "noResults": "Aucun partenaire ne correspond à vos critères",
+      "pagination": {
+        "showing": "Affichage de {from} à {to} sur {total}",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "first": "Première",
+        "last": "Dernière",
+        "goTo": "Aller à la page",
+        "page": "Page",
+        "go": "Aller"
+      }
+    },
+    "stories": {
+      "title": "Ressources et articles - YourBrand",
+      "description": "Guides pratiques, études de cas et analyses de nos experts.",
+      "viewMode": {
+        "grid": "Grille",
+        "list": "Liste"
+      },
+      "stats": {
+        "stories": "articles",
+        "pageOf": "Page {current} / {total}"
+      },
+      "pagination": {
+        "showing": "Affichage de {from} à {to} sur {total}",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "first": "Première",
+        "last": "Dernière",
+        "goTo": "Aller à la page",
+        "page": "Page",
+        "go": "Aller"
+      },
+      "empty": {
+        "title": "Aucune ressource pour le moment",
+        "subtitle": "Restez à l'écoute — de nouveaux articles et guides arrivent bientôt."
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Une question ou prêt à commencer ? Contactez-nous, notre équipe vous répondra sous un jour ouvrable.",
+      "seo": {
+        "title": "Contact YourBrand",
+        "description": "Contactez notre équipe. Nous répondons sous un jour ouvrable."
+      },
+      "success": "Envoi réussi !",
+      "successMessage": "Merci de nous avoir contactés. Notre équipe vous répondra sous un jour ouvrable.",
+      "submitFailed": "Échec de l'envoi",
+      "formTitle": "Envoyer une demande",
+      "formSubtitle": "Remplissez le formulaire et notre équipe vous répondra sous un jour ouvrable.",
+      "form": {
+        "name": "Votre nom",
+        "namePlaceholder": "Entrez votre nom",
+        "email": "Adresse e-mail",
+        "emailPlaceholder": "Entrez votre e-mail",
+        "phone": "Numéro de téléphone",
+        "phonePlaceholder": "Entrez votre numéro de téléphone",
+        "service": "Type de demande",
+        "message": "Votre message",
+        "messagePlaceholder": "Décrivez vos besoins en détail : service souhaité, budget et délais",
+        "submit": "Envoyer la demande",
+        "selectInquiryType": "Veuillez sélectionner un type de demande",
+        "general": "Demande générale",
+        "product": "Produit / Service",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      },
+      "submitting": "Envoi en cours...",
+      "info": {
+        "title": "Coordonnées",
+        "phone": "Téléphone",
+        "email": "E-mail",
+        "address": "Adresse",
+        "hours": "Horaires",
+        "hoursHint": "Lun - Ven, 9h00 - 18h00",
+        "phoneConsultation": "Consultation par téléphone",
+        "phoneHint": "Appelez-nous pour des questions rapides",
+        "emailUs": "Écrivez-nous",
+        "emailHint": "Pour les demandes détaillées"
+      },
+      "whatYouGet": "Ce que vous obtenez",
+      "benefit1": "Une réponse sous un jour ouvrable",
+      "benefit2": "Une consultation gratuite avec un expert",
+      "benefit3": "Une proposition adaptée à vos besoins",
+      "benefit4": "Des prix transparents, sans engagement",
+      "errorEmailRequired": "L'adresse e-mail est requise",
+      "errorEmailInvalid": "Veuillez saisir une adresse e-mail valide",
+      "errorPhoneInvalid": "Veuillez saisir un numéro de téléphone valide",
+      "errorSubmitFailed": "L'envoi a échoué. Veuillez réessayer plus tard."
+    },
+    "about": {
+      "title": "À propos de YourBrand",
+      "hero": {
+        "title": "Qui sommes-nous",
+        "subtitle": "Un partenaire de confiance pour les services professionnels, combinant expertise, transparence et accompagnement dédié."
+      },
+      "mission": {
+        "title": "Notre mission",
+        "description": "Rendre les services professionnels de qualité accessibles, transparents et fiables pour tous."
+      },
+      "vision": {
+        "title": "Notre vision",
+        "description": "Être le partenaire de référence des organisations et des particuliers recherchant un accompagnement fiable et certifié."
+      },
+      "whoWeAre": {
+        "title": "Qui sommes-nous",
+        "paragraph1": "YourBrand est un fournisseur de services professionnels fondé sur une idée simple : chacun mérite un accompagnement fiable et de qualité, sans approximation.",
+        "paragraph2": "Depuis plus de 15 ans, nous avons réalisé plus de 500 projets pour des clients du monde entier. Du conseil à la mise en œuvre, de la formation au support, nous accompagnons chaque projet avec soin.",
+        "paragraph3": "Notre équipe allie expertise certifiée et approche personnalisée — de votre première demande au résultat final."
+      },
+      "values": {
+        "title": "Nos valeurs",
+        "quality": {
+          "title": "Qualité certifiée",
+          "description": "Nous nous engageons, ainsi que nos partenaires, à respecter des standards vérifiés et certifiés."
+        },
+        "trust": {
+          "title": "Confiance et intégrité",
+          "description": "Nous sommes transparents sur les délais, les coûts et les résultats — toujours."
+        },
+        "transparency": {
+          "title": "Transparence",
+          "description": "Des prix clairs, des processus clairs, aucune surprise cachée."
+        }
+      },
+      "team": {
+        "title": "Notre équipe",
+        "subtitle": "Des professionnels expérimentés dédiés à votre réussite.",
+        "members": {
+          "editorial": {
+            "name": "Alex Morgan",
+            "role": "Directeur éditorial",
+            "bio": "Dirige la stratégie de contenu et la qualité de nos publications."
+          },
+          "leadership": {
+            "name": "Sarah Chen",
+            "role": "Responsable satisfaction client",
+            "bio": "Garantit un accompagnement personnalisé pour chaque client."
+          },
+          "support": {
+            "name": "David Park",
+            "role": "Responsable livraison de projets",
+            "bio": "Coordonne les équipes pour livrer les projets dans les délais et le budget."
+          }
+        }
+      },
+      "whyChooseUs": {
+        "title": "Pourquoi choisir YourBrand ?",
+        "expertise": {
+          "title": "Expertise certifiée",
+          "description": "Des spécialistes aux qualifications vérifiées et à l'expérience réelle."
+        },
+        "network": {
+          "title": "Réseau de partenaires validés",
+          "description": "Accès à des entreprises et institutions certifiées en qui nous avons confiance."
+        },
+        "support": {
+          "title": "Accompagnement dédié",
+          "description": "Un suivi personnalisé du début à la fin."
+        },
+        "savings": {
+          "title": "Excellent rapport qualité-prix",
+          "description": "Des prix compétitifs et transparents, sans frais cachés."
+        }
+      },
+      "stats": {
+        "years": "Plus de 15 ans d'expérience",
+        "projects": "Plus de 500 projets réalisés",
+        "satisfaction": "99 % de satisfaction client",
+        "clients": "Plus de 120 clients accompagnés"
+      },
+      "cta": {
+        "title": "Travaillons ensemble",
+        "description": "Contactez-nous dès aujourd'hui pour une consultation gratuite et une proposition sur mesure.",
+        "button": "Contactez-nous"
+      },
+      "seo": {
+        "title": "À propos de YourBrand - Services professionnels",
+        "description": "Découvrez YourBrand : notre mission, nos valeurs et l'équipe qui porte nos services professionnels.",
+        "schemaDescription": "YourBrand est un fournisseur de services professionnels : conseil, mise en œuvre, formation et support."
+      }
+    },
+    "error": {
+      "title": "Une erreur est survenue",
+      "description": "Veuillez réessayer ou revenir à la page d'accueil.",
+      "goHome": "Retour à l'accueil"
+    }
+  },
+  "blogFilter": {
+    "contentType": "Type de contenu",
+    "topic": "Sujet",
+    "audience": "Audience",
+    "search": "Rechercher",
+    "searchPlaceholder": "Entrez des mots-clés...",
+    "selected": "Sélectionnés",
+    "clearAll": "Tout effacer",
+    "reset": "Réinitialiser",
+    "applyFilters": "Appliquer les filtres",
+    "showMore": "Plus",
+    "showLess": "Moins"
+  },
+  "tags": {
+    "guide": "Guide",
+    "how-to": "Tutoriel",
+    "case-study": "Étude de cas",
+    "comparison": "Comparaison",
+    "news": "Actualités",
+    "research": "Recherche",
+    "faq": "FAQ",
+    "opinion": "Opinion",
+    "strategy": "Stratégie",
+    "technology": "Technologie",
+    "marketing": "Marketing",
+    "operations": "Opérations",
+    "finance": "Finance",
+    "compliance": "Conformité",
+    "people": "Ressources humaines",
+    "sustainability": "Durabilité",
+    "startups": "Startups",
+    "enterprise": "Entreprises",
+    "professionals": "Professionnels",
+    "consumers": "Consommateurs",
+    "international": "International"
+  },
+  "legal": {
+    "lastUpdated": "Dernière mise à jour",
+    "updateDate": "5 août 2026",
+    "backToHome": "Retour à l'accueil",
+    "contactEmail": "E-mail de contact",
+    "contactPhone": "Téléphone de contact",
+    "contactAddress": "Adresse du bureau",
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "seoTitle": "Politique de confidentialité - YourBrand",
+      "seoDescription": "Lisez la politique de confidentialité de YourBrand pour comprendre comment nous collectons, utilisons et protégeons vos informations.",
+      "seoKeywords": "politique de confidentialité, protection des données",
+      "intro": {
+        "title": "Introduction",
+        "text": "Cette politique de confidentialité explique comment YourBrand collecte, utilise, stocke et protège vos informations personnelles lorsque vous utilisez notre site web ou nos services."
+      },
+      "collection": {
+        "title": "Informations que nous collectons",
+        "text": "Nous collectons les informations que vous nous fournissez directement, comme votre nom, votre adresse e-mail et votre numéro de téléphone lors de l'envoi d'un formulaire de contact, ainsi que des données d'utilisation de base telles que les pages visitées et le type de navigateur."
+      },
+      "use": {
+        "title": "Comment nous utilisons vos informations",
+        "text": "Nous utilisons vos informations pour répondre à vos demandes, fournir les services demandés, améliorer notre site web et communiquer des mises à jour importantes. Nous ne vendons jamais vos informations personnelles à des tiers."
+      },
+      "security": {
+        "title": "Sécurité des données",
+        "text": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre tout accès non autorisé, altération, divulgation ou destruction."
+      },
+      "rights": {
+        "title": "Vos droits",
+        "text": "Vous avez le droit d'accéder à vos informations personnelles, de les corriger ou de les supprimer à tout moment. Pour exercer ces droits, veuillez nous contacter via les coordonnées ci-dessous."
+      },
+      "governingLaw": {
+        "title": "Droit applicable",
+        "text": "Cette politique est régie par les lois applicables en matière de protection des données. En utilisant notre site web, vous consentez aux pratiques décrites dans cette politique."
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "text": "Pour toute question concernant cette politique de confidentialité, veuillez nous contacter."
+      }
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "seoTitle": "Conditions d'utilisation - YourBrand",
+      "seoDescription": "Lisez les conditions d'utilisation de YourBrand régissant l'usage de notre site web et de nos services.",
+      "seoKeywords": "conditions d'utilisation, conditions de service",
+      "serviceUsage": {
+        "title": "Utilisation des services",
+        "text": "En utilisant notre site web et nos services, vous acceptez de les utiliser uniquement à des fins légales et sans enfreindre les droits d'autrui."
+      },
+      "intellectualProperty": {
+        "title": "Propriété intellectuelle",
+        "text": "Tout le contenu de ce site web, y compris textes, graphiques, logos et logiciels, est la propriété de YourBrand ou de ses concédants et est protégé par les lois applicables en matière de propriété intellectuelle."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation de responsabilité",
+        "text": "YourBrand ne saurait être tenu responsable des dommages indirects, accessoires ou consécutifs résultant de l'utilisation de notre site web ou de nos services. Les contrats de service peuvent inclure des conditions spécifiques supplémentaires."
+      },
+      "governingLaw": {
+        "title": "Droit applicable",
+        "text": "Ces conditions sont régies par les lois applicables. Tout litige relève de la compétence des tribunaux compétents."
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "text": "Pour toute question concernant ces conditions, veuillez nous contacter."
+      }
+    },
+    "disclaimer": {
+      "title": "Mentions légales",
+      "seoTitle": "Mentions légales - YourBrand",
+      "seoDescription": "Lisez les mentions légales de YourBrand concernant les informations fournies sur notre site web.",
+      "seoKeywords": "mentions légales, conditions",
+      "general": {
+        "title": "Informations générales",
+        "text": "Le contenu de ce site web est fourni à titre purement informatif. Bien que nous nous efforcions de maintenir l'exactitude des informations, nous ne fournissons aucune garantie, expresse ou implicite, quant à leur exhaustivité, exactitude, fiabilité, adéquation ou disponibilité."
+      },
+      "services": {
+        "title": "Services",
+        "text": "Toute utilisation des informations fournies sur ce site se fait à vos propres risques. Nous ne sommes pas responsables des pertes ou dommages découlant de l'utilisation de ces informations. Les descriptions de services sont sujettes à modification sans préavis."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation de responsabilité",
+        "text": "En aucun cas YourBrand ne pourra être tenu responsable d'une perte ou d'un dommage, y compris, sans limitation, les pertes ou dommages indirects ou consécutifs, découlant de l'utilisation de ce site web."
+      },
+      "thirdPartyLinks": {
+        "title": "Liens tiers",
+        "text": "Ce site web peut contenir des liens vers des sites externes qui ne sont ni fournis ni maintenus par nous. Nous ne garantissons pas l'exactitude, la pertinence ou l'exhaustivité des informations sur ces sites externes."
+      },
+      "governingLaw": {
+        "title": "Droit applicable",
+        "text": "Ces mentions sont régies par les lois applicables. En utilisant ce site web, vous acceptez les termes de ces mentions."
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "text": "Pour toute question concernant ces mentions, veuillez nous contacter."
+      }
+    }
+  },
+  "seo": {
+    "homeTitle": "YourBrand - Services professionnels et solutions",
+    "homeDescription": "YourBrand est votre partenaire de confiance pour les services professionnels — conseil, mise en œuvre, formation et support, avec une qualité certifiée."
+  },
+  "cookie": {
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation, proposer un contenu personnalisé et analyser notre trafic. En cliquant sur « Tout accepter », vous consentez à notre utilisation des cookies.",
+    "privacyLink": "Lire notre politique de confidentialité",
+    "accept": "Tout accepter",
+    "reject": "Refuser",
+    "showDetails": "Personnaliser",
+    "hideDetails": "Masquer",
+    "savePreferences": "Enregistrer les préférences",
+    "alwaysOn": "Toujours actif",
+    "types": {
+      "necessary": {
+        "title": "Nécessaires",
+        "description": "Requis pour le bon fonctionnement du site web."
+      },
+      "analytics": {
+        "title": "Analytique",
+        "description": "Aident à comprendre comment les visiteurs interagissent avec le site."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Utilisés pour diffuser des publicités et du contenu pertinents."
+      }
+    }
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}
